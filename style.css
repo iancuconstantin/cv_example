@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;700&display=swap');
+.container{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100vw;
+    font-family: 'Source Sans Pro', serif;
+}
+ul{
+    padding-left: 15px;
+}
+h4,h5{
+    font-weight: 700;
+}
+.side{
+    width: 25%;
+    background-color: #283442;
+}
+    #avatar{
+        height: 150px;
+        width: 150px;
+    }
+    h3:nth-child(2){
+        font-weight: 700;
+        letter-spacing: 5px;
+    }
+    h3.mb-4{
+        letter-spacing: 5px;
+    }
+    #job{
+        font-size: small;
+    }
+    .details{
+        height: 400px;
+        width: 100%;
+    }
+        .img{
+            width: 25%;
+            height: 100%;
+        }
+            .img i{
+                font-size: 2rem;
+                padding: 5px;
+            }
+        .text{
+            font-size: small;
+            width: 75%;
+            height: 100%;
+        }
+        .text p{
+            margin-bottom: 0;
+        }
+    .letter{
+        font-size: .8rem;
+        color: #f0dd11;
+    }
+.main{
+    width: 75%;
+}
+div.experience.d-flex > div.text > div > div:nth-child(even),
+div.education.d-flex > div.text > div > div:nth-child(even){
+    padding-left: 14%;
+}
+    .experience .img , .education .img , .awards .img{
+        width: 10%;
+    }
+    .experience .text , .education .text , .awards .text{
+        width: 90%;
+    }
+    .last .img{
+        width: calc(75% - 56.2%);
+    }
+    .main .img  i{
+        height: fit-content;
+        color: #283442;
+        border: 2px solid #283442;
+        border-radius: 50%;
+    }
+    .main .text h4{
+        padding-bottom: 5px;
+        border-bottom: 2px solid  #283442;
+        width: calc(100% - 10px);
+    }
+    .one{
+        width: 50%;
+    }
+    .two{
+        width: 50%;
+    }
+    .progress{
+        border-radius: 0;
+        background-color: gray;
+    }
+    .ref{
+        padding-top: 25%;
+    }
